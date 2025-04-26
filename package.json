@@ -1,0 +1,20 @@
+{
+  "name": "test-pretty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && node index.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@jeswr/pretty-turtle": "^1.5.1",
+    "@rdfjs/data-model": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/rdfjs__data-model": "^2.0.9",
+    "typescript": "^5.8.3"
+  }
+}
